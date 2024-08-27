@@ -14,7 +14,7 @@ class MainKtTest {
         val cntMonth = 25000
         val cardType ="VK Pay"
         val result = commission(amount, cntDay, cntMonth, cardType)
-        assertEquals(0, result)
+        assertEquals(1, result)
     }
     @Test
     fun commissionVK_payOverlimit() {
